@@ -1,16 +1,16 @@
-## Hi there 👋
+# P2blood links page
 
-<!--
-**P2blood/P2blood** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+A simple, responsive, static HTML/CSS/JS link page.
 
-Here are some ideas to get you started:
+## Preview locally
+Open `index.html` in a browser.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Publish for free with Cloudflare Pages
+1. Create a GitHub repository and upload all files in this folder.
+2. In Cloudflare, open **Workers & Pages** → **Create** → **Pages** → **Connect to Git**.
+3. Select the repository.
+4. For a plain static site, leave the build command empty and set the output directory to `/` (or the repository root, depending on the setup screen).
+5. Deploy. Cloudflare will provide a public `*.pages.dev` address.
+
+The social links are in `index.html`. Update their `href` values to change destinations.
+The colors and visual style are in `style.css`.
